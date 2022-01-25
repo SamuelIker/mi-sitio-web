@@ -1,0 +1,73 @@
+
+h1 {
+    color: rgb(7, 6, 37);
+
+
+  padding-left: 20px;
+ 
+}
+
+
+
+.header {
+    background-color: #224286;
+
+    display: flex;
+
+    justify-content: space-evenly;
+    
+}
+
+
+
+.grid {
+display: flex;
+flex-wrap: wrap ;
+justify-content: space-evenly;
+
+}
+
+body {
+
+ 
+background-image: image('el espacio.jpeg');
+   
+     
+}
+.footer {
+    display:flex;
+    justify-content: flex-end;
+}
+
+a:link {
+    color: whitesmoke;
+}
+
+a:visited {
+    color:yellowgreen;
+}
+
+.header a{
+    margin-top: 59px;
+}
+
+.item {
+
+    position: relative;
+    
+   
+}
+
+.item p {
+    position: absolute;
+    transform: translate(50%, 50%);
+
+}
+
+.item:hover p {
+    opacity: 1;
+}
+
+.item:hover img {
+    opacity: 0.33;
+}
